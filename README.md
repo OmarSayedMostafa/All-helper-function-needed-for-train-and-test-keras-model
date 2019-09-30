@@ -10,3 +10,4 @@ this is all helper and utilities function needed to train and test a keras model
 	 - choose to run on single (cpu/gpu) or multi gpus and gpus number if parallel gpus desired.
 	 - load saved model and its json saved parameters and continue training / evaluating-testing model 
 	 - evaluate accuracy of the model on each class alone to know which class your model has a weak prediction in it.
+	 - save missed_classified images to specific path to view them and investigate why they been classified wrong.
