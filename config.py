@@ -1,13 +1,13 @@
 from utils import calling_sequence, np, write_json_parameters
 import sys
 
-parent_directory='/home/omar/supplements_detetction_and_classification/supplements_classification_models/'
-model_save_path = 'weights/'
-train_data_path = '/home/omar/supplements_detetction_and_classification/hyprid_Dataset/train/'
-valid_data_path = '/home/omar/supplements_detetction_and_classification/hyprid_Dataset/valid/'
-test_data_path = '/home/omar/supplements_detetction_and_classification/hyprid_Dataset/test/'
+parent_directory='/full/path/to/your/parent/directory'
+model_save_path = '/path/to/your/weights'
+train_data_path = '/path/to/your/train_data/'
+valid_data_path = 'path/to/your/valid_data/'
+test_data_path = '/path/to/your/test_data/'
 
-result_sheet = '/home/omar/supplements_detetction_and_classification/supplements_classification_models/result_sheet.csv'
+result_sheet = '/path/to/your/result_sheet.csv'
 
 parameters_json_file_path = model_save_path
 
