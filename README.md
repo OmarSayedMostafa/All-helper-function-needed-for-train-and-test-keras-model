@@ -3,7 +3,7 @@ this is all helper and utilities function needed to train and test a keras model
  
  - ***Features***:
 	 - **parameters configurations inside config.py**
-		 - parameters :: python dictionary contains all parameters may needed while training or testing any model, this dictionary is set once before running through function [get_parameters] inside config.py or can be set from previous saved parameters.
+		 - parameters : python dictionary contains all parameters may needed while training or testing any model, this dictionary is set once before running through function [get_parameters] inside config.py or can be set from previous saved parameters.
 		 - ability to save configuration parameters as json to reload it agin and continue training or testing the model
 		 
 	 - **run multi models with the same configuration , or same model with different configuration many times and all training models weights will be saved under different weights file name contains  model name and configuration data within it so you can distinguish between models weights [ en-sample learning]**
